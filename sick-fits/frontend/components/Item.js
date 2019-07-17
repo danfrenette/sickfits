@@ -31,7 +31,7 @@ export default class Item extends Component {
 
         <p>{item.description}</p>
 
-        <div class="buttonList">
+        <div className="buttonList">
           <Link
             href={{
               pathname: "/item",
